@@ -13,7 +13,7 @@ public class Teacher extends AcademicMember {
     private LocalDate hireDate;
     private BigDecimal salary;
     private String officeNumber;
-    private String employmentType;
+    private String employmentType; 
 
     public Teacher(String personId, String firstName, String lastName, String email, String phoneNumber, LocalDate dateOfBirth,
                    String memberNumber, Department department, LocalDate joinDate, String academicStatus, String institutionalEmail, String advisorName,
