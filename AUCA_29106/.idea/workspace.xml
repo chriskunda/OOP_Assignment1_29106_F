@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a8f612d-0137-4a10-8c25-1037195d0bd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AUCA_29106.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/abstracts/AcademicMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/abstracts/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/administrator/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/assessment/Assessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/bookloan/BookLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/classroom/Classroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/department/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/enrollment/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/exceptions/BookUnavailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/exceptions/DuplicateRecordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/exceptions/PrerequisiteMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/exceptions/RecordNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/feepayment/FeePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/interfaces/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/interfaces/Registrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/librarybook/LibraryBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/main/SchoolManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auca/teacher/Teacher.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MHrl5nBJmhptVkyyoQ278hyzvu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Chris/OneDrive/Desktop/UNI/SEMESTER 4/OOP/Practices/AUCA_29106",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.auca.main.Main" />
+      <module name="AUCA_29106" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.auca.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a8f612d-0137-4a10-8c25-1037195d0bd1" name="Changes" comment="" />
+      <created>1795018483957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795018483957</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
