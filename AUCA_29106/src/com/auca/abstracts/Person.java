@@ -7,7 +7,7 @@ import com.auca.interfaces.Registrable;
 import java.time.LocalDate;
 
 public abstract class Person implements Identifiable, Registrable {
-    // 6 Mandatory Attributes for Person
+    
     protected String personId;
     protected String firstName;
     protected String lastName;
@@ -15,7 +15,7 @@ public abstract class Person implements Identifiable, Registrable {
     protected String phoneNumber;
     protected LocalDate dateOfBirth;
 
-    // Parameterized Constructor
+    
     public Person(String personId, String firstName, String lastName, String email, String phoneNumber, LocalDate dateOfBirth) {
         this.personId = personId;
         this.firstName = firstName;
@@ -25,7 +25,7 @@ public abstract class Person implements Identifiable, Registrable {
         this.dateOfBirth = dateOfBirth;
     }
 
-    // Abstract method required by assignment
+    
     public abstract String getRoleDescription();
 
     // Getters and Setters
@@ -47,7 +47,7 @@ public abstract class Person implements Identifiable, Registrable {
     public LocalDate getDateOfBirth() { return dateOfBirth; }
     public void setDateOfBirth(LocalDate dateOfBirth) { this.dateOfBirth = dateOfBirth; }
 
-    // Fulfilling Identifiable interface methods
+    
     @Override
     public String getId() {
         return personId;
@@ -63,7 +63,7 @@ public abstract class Person implements Identifiable, Registrable {
         return true; // Default active state for persons
     }
 
-    // Basic validation implementation for Person fields
+    
     @Override
     public void validate() throws ValidationException {
         if (personId == null || personId.trim().isEmpty()) {

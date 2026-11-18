@@ -14,7 +14,7 @@ public class BookLoan implements Identifiable, Registrable {
     private LibraryBook book;
     private LocalDate borrowedDate;
     private LocalDate dueDate;
-    private LocalDate returnedDate; // Null until returned[cite: 9]
+    private LocalDate returnedDate; 
 
     public BookLoan(String loanId, Student student, LibraryBook book, LocalDate borrowedDate, LocalDate dueDate, LocalDate returnedDate) {
         this.loanId = loanId;

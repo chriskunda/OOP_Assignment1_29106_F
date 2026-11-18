@@ -1,12 +1,12 @@
 package com.auca.abstracts;
 
-import com.auca.department.Department; // Note: Will create department package next
+import com.auca.department.Department; 
 import com.auca.exceptions.ValidationException;
 
 import java.time.LocalDate;
 
 public abstract class AcademicMember extends Person {
-    // 6 Mandatory Attributes for AcademicMember
+    
     protected String memberNumber;
     protected Department department;
     protected LocalDate joinDate;
@@ -14,7 +14,7 @@ public abstract class AcademicMember extends Person {
     protected String institutionalEmail;
     protected String advisorName;
 
-    // Parameterized Constructor (using super to initialize Person fields)
+    
     public AcademicMember(String personId, String firstName, String lastName, String email, String phoneNumber, LocalDate dateOfBirth,
                           String memberNumber, Department department, LocalDate joinDate, String academicStatus, String institutionalEmail, String advisorName) {
         super(personId, firstName, lastName, email, phoneNumber, dateOfBirth);
@@ -26,7 +26,7 @@ public abstract class AcademicMember extends Person {
         this.advisorName = advisorName;
     }
 
-    // Abstract method required by assignment
+    
     public abstract String getAcademicCategory();
 
     // Getters and Setters

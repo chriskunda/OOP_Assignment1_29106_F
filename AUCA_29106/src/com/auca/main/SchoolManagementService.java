@@ -45,8 +45,7 @@ public class SchoolManagementService {
         this.scanner = scanner;
     }
 
-    // ==================== INPUT HELPERS ====================
-
+    
     private String readLine(String prompt, boolean allowBack) {
         System.out.print(prompt);
         String input = scanner.nextLine().trim();

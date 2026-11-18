@@ -11,7 +11,7 @@ public class Department implements Identifiable, Registrable {
     private String departmentCode;
     private String officeLocation;
     private String contactEmail;
-    private Teacher headTeacher; // Optional at initial creation[cite: 8]
+    private Teacher headTeacher; 
 
     public Department(String departmentId, String departmentName, String departmentCode, String officeLocation, String contactEmail, Teacher headTeacher) {
         this.departmentId = departmentId;
